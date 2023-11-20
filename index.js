@@ -9,7 +9,7 @@ const entitiesRouter = require('./routes/entities')
 const searchRouter = require('./routes/search')
 
 const app = express()
-const port = 5000
+const port = 3000
 
 // Setting up the MongoDB URI
 const MONGODB_URI = 'mongodb://127.0.0.1:27018/quiendijoque'

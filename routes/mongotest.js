@@ -8,10 +8,10 @@ router.get('/test', async (req, res) => {
   const source = req.query.source ? { source: req.query.source } : {}
   try {
     const articles = await Article.find(source)
-    //   .sort({ date: -1, rank: -1 })
+      //   .sort({ date: -1, rank: -1 })
       .skip((page - 1) * limit)
       .limit(limit)
-      console.log(articles)
+    console.log(articles)
     res.json(articles)
   } catch (error) {
     res.status(500).json({ message: error.message })

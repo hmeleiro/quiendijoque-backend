@@ -38,7 +38,6 @@ router.get('/articles', async (req, res) => {
     ])
       .skip((page - 1) * limit)
       .limit(limit)
-      console.log(articles)
     res.json(articles)
   } catch (error) {
     res.status(500).json({ message: error.message })
