@@ -12,12 +12,6 @@ module.exports = {
   rules: {
     indent: ['error', 2],
     'react/prop-types': 'off',
-    camelcase: [
-      'error',
-      {
-        properties: 'never'
-      }
-    ],
     'spaced-comment': 'never'
   }
 }

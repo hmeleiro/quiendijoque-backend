@@ -26,61 +26,87 @@ router.get('/search', async (req, res) => {
   const limit = parseInt(req.query.limit) || 10
   const source = req.query.source ? { source: req.query.source } : {}
   const search_terms = req.query.q
-  try {
-    const entities = await Article.aggregate([
-      {
-        // $match: { 'sentences.text': { $regex: search_terms, $options: 'i' } }
-        $match: { $text: { $search: search_terms, $language: 'es' } }
-      },
-      {
-        $match: source
-      },
-      {
+  const is_quote = req.query.is_quote === 'true'
+
+  const is_quote_stage = req.query.is_quote
+    ? {
         $addFields: {
           sentences: {
             $filter: {
               input: '$sentences',
-              as: 'item',
+              as: 'sentence',
               cond: {
-                $regexMatch: {
-                  input: '$$item.text',
-                  regex: createAccentInsensitiveRegex(search_terms),
-                  options: 'i'
-                }
+                $eq: ['$$sentence.is_quote', is_quote]
               }
             }
           }
         }
-      },
-      {
-        $match: { sentences: { $ne: [] } }
-      },
-      {
-        $project: {
-          yearMonthDay: {
-            $dateToString: {
-              format: '%Y-%m-%d',
-              date: '$date'
+      }
+    : ''
+
+  let pipeline = [
+    { $match: { $text: { $search: search_terms, $language: 'es' } } },
+    { $match: source }
+  ]
+
+  const filter_search_terms = {
+    $addFields: {
+      sentences: {
+        $filter: {
+          input: '$sentences',
+          as: 'item',
+          cond: {
+            $regexMatch: {
+              input: '$$item.text',
+              regex: createAccentInsensitiveRegex(search_terms),
+              options: 'i'
             }
-          },
-          date: 1,
-          rank: 1,
-          headline: 1,
-          source: 1,
-          sentences: 1,
-          url: 1
+          }
+        }
+      }
+    }
+  }
+  const filter_empty_sentences = { $match: { sentences: { $ne: [] } } }
+  const project_stage = {
+    $project: {
+      yearMonthDay: {
+        $dateToString: {
+          format: '%Y-%m-%d',
+          date: '$date'
         }
       },
-      {
-        $sort: {
-          yearMonthDay: -1,
-          hour: -1,
-          rank: 1,
-          minute: -1
-        }
-      },
-      { $sort: { score: { $meta: 'textScore' }, date: -1 } }
-    ])
+      date: 1,
+      rank: 1,
+      headline: 1,
+      source: 1,
+      sentences: 1,
+      url: 1
+    }
+  }
+
+  const sort_stage = {
+    $sort: {
+      score: { $meta: 'textScore' },
+      yearMonthDay: -1,
+      hour: -1,
+      rank: 1,
+      minute: -1
+    }
+  }
+
+  if (is_quote_stage) {
+    pipeline.push(is_quote_stage)
+  }
+
+  pipeline.push(
+    filter_search_terms,
+    filter_empty_sentences,
+    project_stage,
+    sort_stage
+  )
+
+  try {
+    const entities = await Article.aggregate(pipeline)
       .skip((page - 1) * limit)
       .limit(limit)
 
