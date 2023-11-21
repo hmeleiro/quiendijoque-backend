@@ -22,7 +22,7 @@ app.use(helmet())
 app.use(express.json())
 app.use(
   cors({
-    origin: ['http://quiendijoque.hmeleiro.com', 'http://localhost:3000']
+    origin: ['http://quiendijoque.hmeleiro.com', 'http://localhost:5173']
   })
 )
 
