@@ -31,7 +31,7 @@ const generate_pipeline = ({
   if (search_terms) {
     pipeline.push(
       {
-        $match: { $text: { $search: search_terms, $language: 'es' } }
+        $match: { $text: { $search: search_terms } }
       },
       {
         $addFields: {
@@ -54,7 +54,6 @@ const generate_pipeline = ({
   }
 
   if (start_date || end_date) {
-    console.log(end_date)
     const date_filter = {}
     if (start_date) {
       date_filter['$gte'] = start_date
@@ -64,7 +63,6 @@ const generate_pipeline = ({
       date_filter['$lte'] = end_date
     }
 
-    console.log(date_filter)
     pipeline.push(
       {
         $addFields: {
@@ -119,7 +117,7 @@ const generate_pipeline = ({
               cond: {
                 $regexMatch: {
                   input: { $arrayElemAt: ['$$entity', 0] },
-                  regex: RegExp(entities.replace(',', '|'), 'i')
+                  regex: RegExp(entities.join('|'), 'i')
                 }
               }
             }
