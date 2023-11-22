@@ -1,0 +1,420 @@
+;({
+  _id: {
+    $oid: '655cd1dc1b11ac37651e3c6b'
+  },
+  headline: 'Pedro Sánchez diseña un Gobierno continuista centrado en el PSOE',
+  date: {
+    $date: '2023-11-20T10:20:21.000Z'
+  },
+  authors: ['Carlos E. Cué', 'José Marcos'],
+  text: 'Pedro Sánchez ha optado por la continuidad y por buscar en el PSOE los nuevos perfiles, más políticos que técnicos, de las personas que se incorporan al Gobierno. “Un Gobierno de marcado perfil político para una legislatura de marcado perfil político”, ha resumido el propio presidente durante una declaración institucional sin preguntas en La Moncloa. El líder del PSOE opta así, como ya hizo en la última remodelación, por mirar al partido para reforzar el Ejecutivo frente a una legislatura que se espera muy convulsa y con una mayoría delicada y una oposición del PP muy fuerte, que tiene más escaños que ninguna otra y además controla 11 de las 17 autonomías. El presidente del Gobierno sabe que serán cuatro años a cara de perro con la derecha, muy movilizada contra la ley de amnistía y el pacto con los independentistas catalanes, y ha decidido que la mejor manera de responder era concentrándose en el PSOE. También, ha explicado, son perfiles de negociación —con los aliados, no con la oposición— porque esta será “la legislatura del diálogo”. Pero a la vez hay personas pensadas para el choque con la oposición, en especial Óscar Puente, exalcalde de Valladolid, que ya hizo ese papel en la investidura fallida de Alberto Núñez Feijóo. El que sale más claramente reforzado es Félix Bolaños, superministro de Presidencia, Justicia y Relaciones con las Cortes; pero también, María Jesús Montero, que asciende a vicepresidenta cuarta y sigue con Hacienda, y Pilar Alegría, que sigue con Educación e incorpora Deportes pero además será portavoz del Gobierno —hasta ahora lo era del PSOE—. No hay mucho más peso político que en el anterior Gobierno, pero sí es evidente que en las últimas remodelaciones el presidente se ha ido decantando por políticos del partido y ha dejado atrás la elección de técnicos que dominó su primer Ejecutivo. La prueba de que Sánchez, más allá de sorpresas como la de Ana Redondo como ministra de Igualdad —una cartera que el PSOE exigía recuperar tras la turbulenta gestión de Irene Montero, que alcanzó su apogeo con la ley del solo sí es sí—, ha optado por una línea continuista es que siguen 13 de los ministros que terminaron la anterior legislatura. Seis de ellos permanecen desde el primer Gobierno del líder del PSOE en junio de 2018: Nadia Calviño (Economía), Teresa Ribera (Transición Ecológica), María Jesús Montero (Hacienda), Margarita Robles (Defensa), Fernando Grande-Marlaska (Interior) y Luis Planas (Agricultura). Las dos primeras ya eran la vicepresidenta primera y tercera —la líder de Sumar, Yolanda Díaz, ostenta el rango de vicepresidenta segunda, además de ministra de Trabajo—, pero el Gobierno contará con una cuarta vicepresidenta, que será Montero. Todo un reconocimiento para la responsable de Hacienda y vicesecretaria general del PSOE, que ha tenido mucho peso en la negociación de la investidura. Pero el que sin duda adquiere un poder enorme, que dentro de La Moncloa y en Ferraz muchos ven como una especie de quinto vicepresidente, es Félix Bolaños. La decisión clave en torno a la que ha girado la composición del Gobierno, como ha quedado demostrado, tenía que ver con el núcleo duro de La Moncloa y el PSOE, que Sánchez, como apuntó EL PAÍS, ha decidido mantener intacto e incluso con más autoridad a Bolaños. No solo seguirá siendo uno de los ministros clave del Ejecutivo a los mandos de La Moncloa, del Consejo de Ministros y de las negociaciones parlamentarias al seguir al frente de Presidencia, sino que releva a Pilar Llop en una cartera decisiva en esta legislatura como Justicia, en la que le tocará desarrollar la ley de amnistía y sobre todo hacer frente a la rebelión de una parte de los jueces contra ella. El nuevo superministro es el principal artífice de la ley y el que se ha ocupado de blindarla en la negociación para que fuera intachable desde el punto de vista técnico y pueda así pasar el delicado filtro del Tribunal Constitucional. Pero también deberá resolver problemas pendientes como la renovación del Consejo General del Poder Judicial, que en diciembre cumplirá cinco años con el mandato caducado. El último fallido intento de negociación lo protagonizó él con Esteban González Pons, persona de confianza del presidente del PP, Alberto Núñez Feijóo. Sánchez además mantiene a los mandos de su equipo en La Moncloa a Óscar López, otro hombre del PSOE que llegó a ser secretario de organización del partido y que, por tanto, lo conoce a la perfección. Sánchez y López, amigos desde hace muchos años, pero después enfrentados cuando el presidente renunció en el convulso comité federal del 1 de octubre de 2016, se han vuelto a unir desde 2021 en una simbiosis que controla la agenda política del Gobierno y dirige la estrategia de un Ejecutivo muy presidencialista en el que todo pasa por el líder del PSOE, que es el que no solo toma las decisiones, sino que también las anuncia, las ejecuta y es el centro de cualquier campaña electoral. Todo gira alrededor del líder, y por eso es muy importante el equipo que lo rodea en La Moncloa, que se mantiene intacto después de la revolución interna que llevó a cabo en 2021, cuando cambió por completo a su núcleo duro y relevó a su entonces jefe de Gabinete, Iván Redondo, a Carmen Calvo y a José Luis Ábalos. Pilar Alegría también sale reforzada, ganando más competencias a Educación, cartera a la que le suma Deportes, pero sobre todo porque será la nueva portavoz del Gobierno en lugar de Isabel Rodríguez, que deja ese papel para concentrarse en un asunto estratégico, un ministerio de nueva creación como Vivienda y Agenda Urbana, que, sin embargo, tendrá dificultades porque las competencias fundamentales están en manos de las autonomías. Ambas fueron dos de las incorporaciones de Sánchez en la gran crisis de gobierno del verano de 2021, quizás pensando en los relevos futuros de Javier Lambán en Aragón y de Emiliano García-Page en Castilla-La Mancha. Una de las incógnitas pendientes es durante cuánto tiempo Alegría compaginará su función actual de portavoz del PSOE con la del Gobierno. Uno de los rumores desde hacía semanas en el PSOE era que Sánchez daría cabida a alguno de los expresidentes autonómicos que perdieron el Gobierno en el descalabro del 28-M. El nombre del valenciano Ximo Puig era el que más sonaba como ministro de Política Territorial. Fuentes del PSOE confirman que Sánchez le ofreció entrar en el Gobierno a otro barón autonómico: el extremeño Guillermo Fernandez Vara, pero lo rechazó por motivos personales. El elegido ha sido Ángel Víctor Torres, que ganó las autonómicas en Canarias, pero no pudo revalidar el Ejecutivo del archipiélago tras el acuerdo entre Coalición Canaria y el PP. Torres asume un ministerio —al que añade Memoria Democrática, que hasta ahora entraba en Presidencia— del que Isabel Rodríguez se había encargado desde la gran remodelación de julio de 2021, en una legislatura que estará marcada por el debate territorial como pretenden los nacionalistas y soberanistas vascos y catalanes. La apuesta por Torres ha supuesto una decepción para la federación socialista de la Comunidad Valenciana, donde había muchas expectativas para Puig: aunque el PSPV mantiene a Diana Morant como ministra de Ciencia y asume además Universidades, se considera una apuesta personal de Sánchez. Otro guiño territorial es la incorporación de una de las personas de mayor confianza de la presidenta de Navarra, María Chivite, al Ejecutivo. Elma Saiz, hasta las pasadas elecciones municipales consejera de Economía y Hacienda de la comunidad foral, una de las tres autonomías que preside el PSOE, será la nueva ministra de Seguridad Social, Inclusión y Políticas Migratorias. La federación socialista de Castilla y León también sale ganando con un político veterano al que le gusta el choque con la derecha, y que fue incluido en el equipo de negociadores con los grupos parlamentarios para la investidura: Óscar Puente, exalcalde de Valladolid. Puente, nuevo ministro de Transportes, ya fue el portavoz del PSOE en la investidura fallida de Alberto Núñez Feijóo, y cobra mucho peso porque además la nueva ministra de Igualdad fue su mano derecha en Valladolid. Además, los perfiles de los cinco ministros de Sumar, entre los que no habrá ninguno de Podemos, marcan un Gobierno con muchos políticos y pocos técnicos, algo que tiene lógica cuando se tiene en cuenta el tipo de legislatura que viene por delante. Yolanda Díaz también se ha rodeado de perfiles políticos que no estaban en el anterior Gabinete, como Mónica García, Ernest Urtasun, Pablo Bustinduy o Sira Rego, que son muy diferentes a los de Ione Belarra e Irene Montero —ambas salen del Gobierno— por estilo y proveniencia, pero coinciden en su perfil mediático e ideológico, lo que los convertirá rápidamente en centro de los combates dialécticos con la oposición. El Gobierno, en cualquier caso, no está cerrado del todo. Nadia Calviño, una figura decisiva como vicepresidenta económica, dejará el Ejecutivo en breve si consigue hacerse el 8 de diciembre con la presidencia del Banco Europeo de Inversiones. Y ahí llegará una novedad muy importante con el nuevo perfil del máximo nivel de poder económico del Ejecutivo. A falta de esa decisión final, que depende de una votación que España confía en ganar gracias al apoyo de Alemania, el Ejecutivo no tiene guiños especiales a los independentistas, sino más bien hacia las propias dinámicas internas tanto dentro del PSOE como de Sumar, que renueva por completo sus caras más visibles. Una incógnita es ver cómo reacciona Podemos, que ya ha mostrado su indignación por quedarse fuera y ha llamado a Díaz “colaboradora necesaria para echar a Podemos del Gobierno”, y controla cinco escaños importantes en el Congreso. Los perfiles que ha elegido Díaz apuntan a una convivencia más tranquila de la coalición, al menos en la esfera pública, para dejar las batallas más duras para la esfera interna. Sánchez y Díaz han diseñado así un Gobierno compacto y político para enfrentarse a una legislatura muy dura en la que la oposición intentará desgastar al Ejecutivo desde el primer minuto. ',
+  url: 'https://elpais.com/espana/2023-11-20/pedro-sanchez-disena-un-gobierno-continuista-centrado-en-el-psoe.html',
+  rank: 0,
+  source: 'El País',
+  sentences: [
+    {
+      text: 'Pedro Sánchez ha optado por la continuidad y por buscar en el PSOE los nuevos perfiles, más políticos que técnicos, de las personas que se incorporan al Gobierno.',
+      entities: [
+        ['Pedro Sánchez', 0, 13, 'PER'],
+        ['PSOE', 62, 66, 'ORG'],
+        ['Gobierno', 153, 161, 'ORG']
+      ],
+      is_quote: false
+    },
+    {
+      text: '“Un Gobierno de marcado perfil político para una legislatura de marcado perfil político”, ha resumido el propio presidente durante una declaración institucional sin preguntas en La Moncloa.',
+      entities: [['La Moncloa', 178, 188, 'LOC']],
+      is_quote: true
+    },
+    {
+      text: 'El líder del PSOE opta así, como ya hizo en la última remodelación, por mirar al partido para reforzar el Ejecutivo frente a una legislatura que se espera muy convulsa y con una mayoría delicada y una oposición del PP muy fuerte, que tiene más escaños que ninguna otra y además controla 11 de las 17 autonomías.',
+      entities: [
+        ['PSOE', 13, 17, 'ORG'],
+        ['Ejecutivo', 106, 115, 'ORG'],
+        ['PP', 215, 217, 'ORG']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'El presidente del Gobierno sabe que serán cuatro años a cara de perro con la derecha, muy movilizada contra la ley de amnistía y el pacto con los independentistas catalanes, y ha decidido que la mejor manera de responder era concentrándose en el PSOE.',
+      entities: [
+        ['Gobierno', 18, 26, 'ORG'],
+        ['PSOE', 246, 250, 'ORG']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'También, ha explicado, son perfiles de negociación —con los aliados, no con la oposición— porque esta será “la legislatura del diálogo”.',
+      entities: [],
+      is_quote: true
+    },
+    {
+      text: 'Pero a la vez hay personas pensadas para el choque con la oposición, en especial Óscar Puente, exalcalde de Valladolid, que ya hizo ese papel en la investidura fallida de Alberto Núñez Feijóo.',
+      entities: [
+        ['Óscar Puente', 81, 93, 'PER'],
+        ['Valladolid', 108, 118, 'LOC'],
+        ['Alberto Núñez Feijóo', 171, 191, 'PER']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'El que sale más claramente reforzado es Félix Bolaños, superministro de Presidencia, Justicia y Relaciones con las Cortes; pero también, María Jesús Montero, que asciende a vicepresidenta cuarta y sigue con Hacienda, y Pilar Alegría, que sigue con Educación e incorpora Deportes pero además será portavoz del Gobierno —hasta ahora lo era del PSOE—.',
+      entities: [
+        ['Félix Bolaños', 40, 53, 'PER'],
+        ['Presidencia', 72, 83, 'MISC'],
+        ['María Jesús Montero', 137, 156, 'PER'],
+        ['Hacienda', 207, 215, 'PER'],
+        ['Pilar Alegría', 219, 232, 'PER'],
+        ['Educación', 248, 257, 'MISC'],
+        ['Deportes', 270, 278, 'MISC'],
+        ['Gobierno', 309, 317, 'ORG'],
+        ['PSOE', 342, 346, 'ORG']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'No hay mucho más peso político que en el anterior Gobierno, pero sí es evidente que en las últimas remodelaciones el presidente se ha ido decantando por políticos del partido y ha dejado atrás la elección de técnicos que dominó su primer Ejecutivo.',
+      entities: [
+        ['Gobierno', 50, 58, 'ORG'],
+        ['Ejecutivo', 238, 247, 'ORG']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'La prueba de que Sánchez, más allá de sorpresas como la de Ana Redondo como ministra de Igualdad —una cartera que el PSOE exigía recuperar tras la turbulenta gestión de Irene Montero, que alcanzó su apogeo con la ley del solo sí es sí—, ha optado por una línea continuista es que siguen 13 de los ministros que terminaron la anterior legislatura.',
+      entities: [
+        ['Sánchez', 17, 24, 'LOC'],
+        ['Ana Redondo', 59, 70, 'PER'],
+        ['PSOE', 117, 121, 'ORG'],
+        ['Irene Montero', 169, 182, 'PER']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Seis de ellos permanecen desde el primer Gobierno del líder del PSOE en junio de 2018: Nadia Calviño (Economía), Teresa Ribera (Transición Ecológica), María Jesús Montero (Hacienda), Margarita Robles (Defensa), Fernando Grande-Marlaska (Interior) y Luis Planas (Agricultura).',
+      entities: [
+        ['Gobierno', 41, 49, 'ORG'],
+        ['PSOE', 64, 68, 'ORG'],
+        ['Nadia Calviño', 87, 100, 'PER'],
+        ['Economía', 102, 110, 'PER'],
+        ['Teresa Ribera', 113, 126, 'PER'],
+        ['Transición Ecológica', 128, 148, 'PER'],
+        ['María Jesús Montero', 151, 170, 'PER'],
+        ['Hacienda', 172, 180, 'PER'],
+        ['Margarita Robles', 183, 199, 'PER'],
+        ['Defensa', 201, 208, 'PER'],
+        ['Fernando Grande-Marlaska', 211, 235, 'PER'],
+        ['Interior', 237, 245, 'LOC'],
+        ['Luis Planas', 249, 260, 'PER'],
+        ['Agricultura', 262, 273, 'LOC']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Las dos primeras ya eran la vicepresidenta primera y tercera —la líder de Sumar, Yolanda Díaz, ostenta el rango de vicepresidenta segunda, además de ministra de Trabajo—, pero el Gobierno contará con una cuarta vicepresidenta, que será Montero.',
+      entities: [
+        ['Sumar', 74, 79, 'ORG'],
+        ['Yolanda Díaz', 81, 93, 'PER'],
+        ['Gobierno', 179, 187, 'ORG'],
+        ['Montero', 236, 243, 'PER']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Todo un reconocimiento para la responsable de Hacienda y vicesecretaria general del PSOE, que ha tenido mucho peso en la negociación de la investidura.',
+      entities: [
+        ['Hacienda', 46, 54, 'PER'],
+        ['PSOE', 84, 88, 'ORG']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Pero el que sin duda adquiere un poder enorme, que dentro de La Moncloa y en Ferraz muchos ven como una especie de quinto vicepresidente, es Félix Bolaños.',
+      entities: [
+        ['La Moncloa', 61, 71, 'LOC'],
+        ['Ferraz', 77, 83, 'LOC'],
+        ['Félix Bolaños', 141, 154, 'PER']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'La decisión clave en torno a la que ha girado la composición del Gobierno, como ha quedado demostrado, tenía que ver con el núcleo duro de La Moncloa y el PSOE, que Sánchez, como apuntó EL PAÍS, ha decidido mantener intacto e incluso con más autoridad a Bolaños.',
+      entities: [
+        ['Gobierno', 65, 73, 'LOC'],
+        ['La Moncloa', 139, 149, 'LOC'],
+        ['PSOE', 155, 159, 'ORG'],
+        ['Sánchez', 165, 172, 'PER'],
+        ['EL PAÍS', 186, 193, 'PER'],
+        ['Bolaños', 254, 261, 'PER']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'No solo seguirá siendo uno de los ministros clave del Ejecutivo a los mandos de La Moncloa, del Consejo de Ministros y de las negociaciones parlamentarias al seguir al frente de Presidencia, sino que releva a Pilar Llop en una cartera decisiva en esta legislatura como Justicia, en la que le tocará desarrollar la ley de amnistía y sobre todo hacer frente a la rebelión de una parte de los jueces contra ella.',
+      entities: [
+        ['Ejecutivo', 54, 63, 'ORG'],
+        ['La Moncloa', 80, 90, 'LOC'],
+        ['Consejo de Ministros', 96, 116, 'ORG'],
+        ['Presidencia', 178, 189, 'MISC'],
+        ['Pilar Llop', 209, 219, 'PER'],
+        ['Justicia', 269, 277, 'MISC']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'El nuevo superministro es el principal artífice de la ley y el que se ha ocupado de blindarla en la negociación para que fuera intachable desde el punto de vista técnico y pueda así pasar el delicado filtro del Tribunal Constitucional.',
+      entities: [['Tribunal Constitucional', 211, 234, 'ORG']],
+      is_quote: false
+    },
+    {
+      text: 'Pero también deberá resolver problemas pendientes como la renovación del Consejo General del Poder Judicial, que en diciembre cumplirá cinco años con el mandato caducado.',
+      entities: [['Consejo General del Poder Judicial', 73, 107, 'ORG']],
+      is_quote: false
+    },
+    {
+      text: 'El último fallido intento de negociación lo protagonizó él con Esteban González Pons, persona de confianza del presidente del PP, Alberto Núñez Feijóo.',
+      entities: [
+        ['Esteban González Pons', 63, 84, 'PER'],
+        ['PP', 126, 128, 'ORG'],
+        ['Alberto Núñez Feijóo', 130, 150, 'PER']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Sánchez además mantiene a los mandos de su equipo en La Moncloa a Óscar López, otro hombre del PSOE que llegó a ser secretario de organización del partido y que, por tanto, lo conoce a la perfección.',
+      entities: [
+        ['La Moncloa', 53, 63, 'LOC'],
+        ['Óscar López', 66, 77, 'PER'],
+        ['PSOE', 95, 99, 'ORG']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Sánchez y López, amigos desde hace muchos años, pero después enfrentados cuando el presidente renunció en el convulso comité federal del 1 de octubre de 2016, se han vuelto a unir desde 2021 en una simbiosis que controla la agenda política del Gobierno y dirige la estrategia de un Ejecutivo muy presidencialista en el que todo pasa por el líder del PSOE, que es el que no solo toma las decisiones, sino que también las anuncia, las ejecuta y es el centro de cualquier campaña electoral.',
+      entities: [
+        ['López', 10, 15, 'PER'],
+        ['Gobierno', 244, 252, 'ORG'],
+        ['Ejecutivo', 282, 291, 'ORG'],
+        ['PSOE', 350, 354, 'ORG']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Todo gira alrededor del líder, y por eso es muy importante el equipo que lo rodea en La Moncloa, que se mantiene intacto después de la revolución interna que llevó a cabo en 2021, cuando cambió por completo a su núcleo duro y relevó a su entonces jefe de Gabinete, Iván Redondo, a Carmen Calvo y a José Luis Ábalos.',
+      entities: [
+        ['La Moncloa', 85, 95, 'LOC'],
+        ['Gabinete', 255, 263, 'PER'],
+        ['Iván Redondo', 265, 277, 'PER'],
+        ['Carmen Calvo', 281, 293, 'PER'],
+        ['José Luis Ábalos', 298, 314, 'PER']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Pilar Alegría también sale reforzada, ganando más competencias a Educación, cartera a la que le suma Deportes, pero sobre todo porque será la nueva portavoz del Gobierno en lugar de Isabel Rodríguez, que deja ese papel para concentrarse en un asunto estratégico, un ministerio de nueva creación como Vivienda y Agenda Urbana, que, sin embargo, tendrá dificultades porque las competencias fundamentales están en manos de las autonomías.',
+      entities: [
+        ['Pilar Alegría', 0, 13, 'PER'],
+        ['Educación', 65, 74, 'MISC'],
+        ['Deportes', 101, 109, 'MISC'],
+        ['Gobierno', 161, 169, 'ORG'],
+        ['Isabel Rodríguez', 182, 198, 'PER'],
+        ['Vivienda y Agenda Urbana', 300, 324, 'MISC']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Ambas fueron dos de las incorporaciones de Sánchez en la gran crisis de gobierno del verano de 2021, quizás pensando en los relevos futuros de Javier Lambán en Aragón y de Emiliano García-Page en Castilla-La Mancha.',
+      entities: [
+        ['Sánchez', 43, 50, 'PER'],
+        ['Javier Lambán', 143, 156, 'PER'],
+        ['Aragón', 160, 166, 'LOC'],
+        ['Emiliano García-Page', 172, 192, 'PER'],
+        ['Castilla-La Mancha', 196, 214, 'LOC']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Una de las incógnitas pendientes es durante cuánto tiempo Alegría compaginará su función actual de portavoz del PSOE con la del Gobierno.',
+      entities: [
+        ['Alegría', 58, 65, 'PER'],
+        ['PSOE', 112, 116, 'ORG'],
+        ['Gobierno', 128, 136, 'LOC']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Uno de los rumores desde hacía semanas en el PSOE era que Sánchez daría cabida a alguno de los expresidentes autonómicos que perdieron el Gobierno en el descalabro del 28-M. El nombre del valenciano Ximo Puig era el que más sonaba como ministro de Política Territorial.',
+      entities: [
+        ['PSOE', 45, 49, 'ORG'],
+        ['Sánchez', 58, 65, 'PER'],
+        ['Gobierno', 138, 146, 'ORG'],
+        ['El nombre del valenciano', 174, 198, 'MISC'],
+        ['Ximo Puig', 199, 208, 'PER']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Fuentes del PSOE confirman que Sánchez le ofreció entrar en el Gobierno a otro barón autonómico: el extremeño Guillermo Fernandez Vara, pero lo rechazó por motivos personales.',
+      entities: [
+        ['PSOE', 12, 16, 'ORG'],
+        ['Sánchez', 31, 38, 'PER'],
+        ['Gobierno', 63, 71, 'LOC'],
+        ['Guillermo Fernandez Vara', 110, 134, 'PER']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'El elegido ha sido Ángel Víctor Torres, que ganó las autonómicas en Canarias, pero no pudo revalidar el Ejecutivo del archipiélago tras el acuerdo entre Coalición Canaria y el PP.',
+      entities: [
+        ['Ángel Víctor Torres', 19, 38, 'PER'],
+        ['Canarias', 68, 76, 'LOC'],
+        ['Ejecutivo', 104, 113, 'ORG'],
+        ['Coalición Canaria', 153, 170, 'ORG'],
+        ['PP', 176, 178, 'ORG']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Torres asume un ministerio —al que añade Memoria Democrática, que hasta ahora entraba en Presidencia— del que Isabel Rodríguez se había encargado desde la gran remodelación de julio de 2021, en una legislatura que estará marcada por el debate territorial como pretenden los nacionalistas y soberanistas vascos y catalanes.',
+      entities: [
+        ['Torres', 0, 6, 'LOC'],
+        ['Memoria Democrática', 41, 60, 'PER'],
+        ['Presidencia', 89, 100, 'MISC'],
+        ['Isabel Rodríguez', 110, 126, 'PER']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'La apuesta por Torres ha supuesto una decepción para la federación socialista de la Comunidad Valenciana, donde había muchas expectativas para Puig: aunque el PSPV mantiene a Diana Morant como ministra de Ciencia y asume además Universidades, se considera una apuesta personal de Sánchez.',
+      entities: [
+        ['Torres', 15, 21, 'PER'],
+        ['Comunidad Valenciana', 84, 104, 'LOC'],
+        ['Puig', 143, 147, 'PER'],
+        ['PSPV', 159, 163, 'ORG'],
+        ['Diana Morant', 175, 187, 'PER'],
+        ['Universidades', 228, 241, 'MISC'],
+        ['Sánchez', 280, 287, 'PER']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Otro guiño territorial es la incorporación de una de las personas de mayor confianza de la presidenta de Navarra, María Chivite, al Ejecutivo.',
+      entities: [
+        ['Navarra', 105, 112, 'LOC'],
+        ['María Chivite', 114, 127, 'PER'],
+        ['Ejecutivo', 132, 141, 'ORG']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Elma Saiz, hasta las pasadas elecciones municipales consejera de Economía y Hacienda de la comunidad foral, una de las tres autonomías que preside el PSOE, será la nueva ministra de Seguridad Social, Inclusión y Políticas Migratorias.',
+      entities: [
+        ['Elma Saiz', 0, 9, 'PER'],
+        ['Economía', 65, 73, 'LOC'],
+        ['PSOE', 150, 154, 'ORG'],
+        ['Inclusión', 200, 209, 'MISC'],
+        ['Políticas Migratorias', 212, 233, 'MISC']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'La federación socialista de Castilla y León también sale ganando con un político veterano al que le gusta el choque con la derecha, y que fue incluido en el equipo de negociadores con los grupos parlamentarios para la investidura: Óscar Puente, exalcalde de Valladolid.',
+      entities: [
+        ['de Castilla', 25, 36, 'PER'],
+        ['León', 39, 43, 'LOC'],
+        ['Óscar Puente', 231, 243, 'PER'],
+        ['Valladolid', 258, 268, 'LOC']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Puente, nuevo ministro de Transportes, ya fue el portavoz del PSOE en la investidura fallida de Alberto Núñez Feijóo, y cobra mucho peso porque además la nueva ministra de Igualdad fue su mano derecha en Valladolid.',
+      entities: [
+        ['Transportes', 26, 37, 'PER'],
+        ['PSOE', 62, 66, 'ORG'],
+        ['Alberto Núñez Feijóo', 96, 116, 'PER'],
+        ['Igualdad', 172, 180, 'MISC'],
+        ['Valladolid', 204, 214, 'LOC']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Además, los perfiles de los cinco ministros de Sumar, entre los que no habrá ninguno de Podemos, marcan un Gobierno con muchos políticos y pocos técnicos, algo que tiene lógica cuando se tiene en cuenta el tipo de legislatura que viene por delante.',
+      entities: [
+        ['Sumar', 47, 52, 'LOC'],
+        ['Podemos', 88, 95, 'PER'],
+        ['Gobierno', 107, 115, 'LOC']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Yolanda Díaz también se ha rodeado de perfiles políticos que no estaban en el anterior Gabinete, como Mónica García, Ernest Urtasun, Pablo Bustinduy o Sira Rego, que son muy diferentes a los de Ione Belarra e Irene Montero —ambas salen del Gobierno— por estilo y proveniencia, pero coinciden en su perfil mediático e ideológico, lo que los convertirá rápidamente en centro de los combates dialécticos con la oposición.',
+      entities: [
+        ['Yolanda Díaz', 0, 12, 'PER'],
+        ['Gabinete', 87, 95, 'PER'],
+        ['Mónica García', 102, 115, 'PER'],
+        ['Ernest Urtasun', 117, 131, 'PER'],
+        ['Pablo Bustinduy', 133, 148, 'PER'],
+        ['Sira Rego', 151, 160, 'PER'],
+        ['Ione Belarra', 194, 206, 'PER'],
+        ['Irene Montero', 209, 222, 'PER'],
+        ['Gobierno', 240, 248, 'LOC']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'El Gobierno, en cualquier caso, no está cerrado del todo.',
+      entities: [['Gobierno', 3, 11, 'LOC']],
+      is_quote: false
+    },
+    {
+      text: 'Nadia Calviño, una figura decisiva como vicepresidenta económica, dejará el Ejecutivo en breve si consigue hacerse el 8 de diciembre con la presidencia del Banco Europeo de Inversiones.',
+      entities: [
+        ['Nadia Calviño', 0, 13, 'PER'],
+        ['Ejecutivo', 76, 85, 'ORG'],
+        ['Banco Europeo de Inversiones', 156, 184, 'ORG']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Y ahí llegará una novedad muy importante con el nuevo perfil del máximo nivel de poder económico del Ejecutivo.',
+      entities: [['Ejecutivo', 101, 110, 'ORG']],
+      is_quote: false
+    },
+    {
+      text: 'A falta de esa decisión final, que depende de una votación que España confía en ganar gracias al apoyo de Alemania, el Ejecutivo no tiene guiños especiales a los independentistas, sino más bien hacia las propias dinámicas internas tanto dentro del PSOE como de Sumar, que renueva por completo sus caras más visibles.',
+      entities: [
+        ['España', 63, 69, 'LOC'],
+        ['Alemania', 106, 114, 'LOC'],
+        ['Ejecutivo', 119, 128, 'ORG'],
+        ['PSOE', 248, 252, 'ORG'],
+        ['Sumar', 261, 266, 'LOC']
+      ],
+      is_quote: false
+    },
+    {
+      text: 'Una incógnita es ver cómo reacciona Podemos, que ya ha mostrado su indignación por quedarse fuera y ha llamado a Díaz “colaboradora necesaria para echar a Podemos del Gobierno”, y controla cinco escaños importantes en el Congreso.',
+      entities: [
+        ['Podemos', 36, 43, 'MISC'],
+        ['Díaz', 113, 117, 'PER'],
+        ['Podemos del Gobierno', 155, 175, 'PER'],
+        ['Congreso', 221, 229, 'ORG']
+      ],
+      is_quote: true
+    },
+    {
+      text: 'Los perfiles que ha elegido Díaz apuntan a una convivencia más tranquila de la coalición, al menos en la esfera pública, para dejar las batallas más duras para la esfera interna.',
+      entities: [['Díaz', 28, 32, 'PER']],
+      is_quote: false
+    },
+    {
+      text: 'Sánchez y Díaz han diseñado así un Gobierno compacto y político para enfrentarse a una legislatura muy dura en la que la oposición intentará desgastar al Ejecutivo desde el primer minuto.',
+      entities: [
+        ['Díaz', 10, 14, 'PER'],
+        ['Gobierno', 35, 43, 'ORG'],
+        ['Ejecutivo', 154, 163, 'ORG']
+      ],
+      is_quote: false
+    }
+  ]
+})

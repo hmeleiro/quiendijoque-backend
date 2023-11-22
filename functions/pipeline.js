@@ -22,7 +22,9 @@ const generate_pipeline = ({
   search_terms = undefined,
   is_quote = null,
   source = undefined,
-  entities = null
+  entities = null,
+  start_date = null,
+  end_date = null
 } = {}) => {
   const pipeline = []
 
@@ -46,6 +48,34 @@ const generate_pipeline = ({
               }
             }
           }
+        }
+      }
+    )
+  }
+
+  if (start_date || end_date) {
+    console.log(end_date)
+    const date_filter = {}
+    if (start_date) {
+      date_filter['$gte'] = start_date
+    }
+
+    if (end_date) {
+      date_filter['$lte'] = end_date
+    }
+
+    console.log(date_filter)
+    pipeline.push(
+      {
+        $addFields: {
+          dateStr: {
+            $dateToString: { format: '%Y-%m-%d', date: '$date' }
+          }
+        }
+      },
+      {
+        $match: {
+          dateStr: date_filter
         }
       }
     )
@@ -80,60 +110,48 @@ const generate_pipeline = ({
   if (entities) {
     pipeline.push(
       { $unwind: '$sentences' },
-      { $unwind: '$sentences.entities' },
       {
-        $match: {
-          'sentences.entities.0': RegExp(entities.replace(',', '|'), 'i')
+        $addFields: {
+          matchingEntities: {
+            $filter: {
+              input: '$sentences.entities',
+              as: 'entity',
+              cond: {
+                $regexMatch: {
+                  input: { $arrayElemAt: ['$$entity', 0] },
+                  regex: RegExp(entities.replace(',', '|'), 'i')
+                }
+              }
+            }
+          }
         }
       },
+      { $match: { 'matchingEntities.0': { $exists: true } } },
       {
         $group: {
-          _id: { docId: '$_id', sentId: '$sentences.text' }, // Grouping based on the 'text' attribute
+          _id: '$_id',
           headline: { $first: '$headline' },
           date: { $first: '$date' },
           rank: { $first: '$rank' },
           url: { $first: '$url' },
-          entities: { $addToSet: '$sentences.entities' } // Pushing 'entities' for each unique 'text'
+          sentences: { $push: '$sentences' }
+          // incluya aquí otros campos que desee conservar
         }
       },
       {
         $project: {
           _id: 0,
           headline: 1,
-          url: 1,
           date: 1,
-          rank: 1,
-          text: '$_id.sentId',
-          entities: 1,
           yearMonthDay: {
             $dateToString: {
               format: '%Y-%m-%d',
               date: '$date'
             }
-          }
-        }
-      },
-      {
-        $group: {
-          _id: '$headline',
-          date: { $first: '$date' },
-          rank: { $first: '$rank' },
-          yearMonthDay: { $first: '$yearMonthDay' },
-          sentences: {
-            $push: { text: '$text', entities: '$entities' }
           },
-          url: { $first: '$url' }
-        }
-      },
-      {
-        $project: {
-          _id: 0,
-          headline: '$_id',
-          url: 1,
           rank: 1,
           sentences: 1,
-          date: 1,
-          yearMonthDay: 1
+          url: 1
         }
       }
     )
@@ -177,25 +195,3 @@ const generate_pipeline = ({
 }
 
 module.exports = generate_pipeline
-
-
-"entities": [
-        [
-          "Díaz",
-          10,
-          14,
-          "PER"
-        ],
-        [
-          "Gobierno",
-          35,
-          43,
-          "ORG"
-        ],
-        [
-          "Ejecutivo",
-          154,
-          163,
-          "ORG"
-        ]
-      ]
