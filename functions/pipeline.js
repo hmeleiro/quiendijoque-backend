@@ -1,3 +1,5 @@
+const e = require('cors')
+
 function escapeRegExp(string) {
   return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') // $& means the whole matched string
 }
@@ -106,6 +108,10 @@ const generate_pipeline = ({
 
   //   If there are entities filter unwind the entities field, search for the entities and group back the results
   if (entities) {
+    const entities_accent_insensitive = entities
+      .map((entity) => (entity = createAccentInsensitiveRegex(entity.trim())))
+      .join('|')
+    console.log(entities_accent_insensitive)
     pipeline.push(
       { $unwind: '$sentences' },
       {
@@ -117,7 +123,7 @@ const generate_pipeline = ({
               cond: {
                 $regexMatch: {
                   input: { $arrayElemAt: ['$$entity', 0] },
-                  regex: RegExp(entities.join('|'), 'i')
+                  regex: RegExp(entities_accent_insensitive, 'i')
                 }
               }
             }

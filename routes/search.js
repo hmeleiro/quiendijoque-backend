@@ -27,14 +27,22 @@ router.post('/search', async (req, res) => {
     start_date,
     end_date
   }
-  console.log(params)
+  // console.log(params)
   const pipeline = generate_pipeline(params)
+  // Pipeline for count
+  const countPipeline = [...pipeline, { $count: 'count' }]
   try {
-    const results = await Article.aggregate(pipeline)
+    let results = await Article.aggregate(pipeline)
       .skip((page - 1) * limit)
       .limit(limit)
 
-    res.json(results)
+    // Get the count
+    let countResult = await Article.aggregate(countPipeline)
+    let totalCount = 0
+    if (countResult.length > 0) {
+      totalCount = countResult[0].count
+    }
+    res.json({ results, totalCount })
   } catch (error) {
     res.status(500).json({ message: error.message })
   }
