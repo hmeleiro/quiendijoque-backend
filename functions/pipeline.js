@@ -31,9 +31,17 @@ const generate_pipeline = ({
   const pipeline = []
 
   if (search_terms) {
+    const search_terms_regex = search_terms
+      .split(' ')
+      .map((term) => createAccentInsensitiveRegex(term))
+      .join('|')
     pipeline.push(
       {
-        $match: { $text: { $search: search_terms } }
+        $match: {
+          $text: {
+            $search: `${search_terms}`
+          }
+        }
       },
       {
         $addFields: {
@@ -44,7 +52,7 @@ const generate_pipeline = ({
               cond: {
                 $regexMatch: {
                   input: '$$item.text',
-                  regex: createAccentInsensitiveRegex(search_terms),
+                  regex: search_terms_regex,
                   options: 'i'
                 }
               }
@@ -111,7 +119,6 @@ const generate_pipeline = ({
     const entities_accent_insensitive = entities
       .map((entity) => (entity = createAccentInsensitiveRegex(entity.trim())))
       .join('|')
-    console.log(entities_accent_insensitive)
     pipeline.push(
       { $unwind: '$sentences' },
       {

@@ -7,6 +7,7 @@ const articlesRouter = require('./routes/articles')
 const testRouter = require('./routes/mongotest')
 const entitiesRouter = require('./routes/entities')
 const searchRouter = require('./routes/search')
+const getEntities = require('./routes/getEntities')
 
 const app = express()
 const port = 3000
@@ -33,6 +34,7 @@ app.get('/', (req, res) => {
 app.use('/api/', articlesRouter)
 app.use('/api/', entitiesRouter)
 app.use('/api/', searchRouter)
+app.use('/api/', getEntities)
 app.use('/api/', testRouter)
 
 app.listen(port, () => {
