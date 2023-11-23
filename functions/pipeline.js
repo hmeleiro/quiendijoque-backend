@@ -83,9 +83,9 @@ const generate_pipeline = ({
     pipeline.push({ $match: source })
   }
 
-  if (is_quote) {
-    pipeline.push(is_quote)
-  }
+  // if (is_quote) {
+  //   pipeline.push({ $match: { 'sentences.is_quote': is_quote }})
+  // }
 
   //   If is_quote filter
   if (is_quote) {

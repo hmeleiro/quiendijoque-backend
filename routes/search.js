@@ -18,13 +18,6 @@ router.post('/search', async (req, res) => {
   page = parseInt(page) || 1
   limit = parseInt(limit) || 10
 
-  // const source = req.query.source ? { source: req.query.source } : {}
-  // const search_terms = req.query.q
-  // const entities = req.query.entities
-  // const is_quote = req.query.is_quote === 'true'
-  // const start_date = req.query.start_date
-  // const end_date = req.query.end_date
-
   source = source ? { source: req.query.source } : {}
   const params = {
     search_terms,
@@ -36,7 +29,6 @@ router.post('/search', async (req, res) => {
   }
   console.log(params)
   const pipeline = generate_pipeline(params)
-  console.log(pipeline)
   try {
     const results = await Article.aggregate(pipeline)
       .skip((page - 1) * limit)
