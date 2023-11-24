@@ -15,8 +15,8 @@ router.post('/search', async (req, res) => {
     limit
   } = req.body
 
-  page = parseInt(page) || 1
-  limit = parseInt(limit) || 10
+  pageNumber = parseInt(page) || 1
+  pageSize = parseInt(limit) || 10
 
   source = source ? { source: req.query.source } : {}
   const params = {
@@ -25,24 +25,19 @@ router.post('/search', async (req, res) => {
     source,
     entities,
     start_date,
-    end_date
+    end_date,
+    pageNumber,
+    pageSize
   }
   // console.log(params)
   const pipeline = generate_pipeline(params)
   // Pipeline for count
-  const countPipeline = [...pipeline, { $count: 'count' }]
   try {
-    let results = await Article.aggregate(pipeline)
-      .skip((page - 1) * limit)
-      .limit(limit)
-
-    // Get the count
-    let countResult = await Article.aggregate(countPipeline)
-    let totalCount = 0
-    if (countResult.length > 0) {
-      totalCount = countResult[0].count
-    }
-    res.json({ results, totalCount })
+    const [result] = await Article.aggregate(pipeline)
+    res.json({
+      results: result.results,
+      totalCount: result.totalCount[0].count
+    })
   } catch (error) {
     res.status(500).json({ message: error.message })
   }

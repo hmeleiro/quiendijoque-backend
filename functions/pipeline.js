@@ -26,7 +26,9 @@ const generate_pipeline = ({
   source = undefined,
   entities = null,
   start_date = null,
-  end_date = null
+  end_date = null,
+  pageNumber = 1,
+  pageSize = 10
 } = {}) => {
   const pipeline = []
 
@@ -201,6 +203,13 @@ const generate_pipeline = ({
       }
     })
   }
+
+  pipeline.push({
+    $facet: {
+      results: [{ $skip: (pageNumber - 1) * pageSize }, { $limit: pageSize }],
+      totalCount: [{ $count: 'count' }]
+    }
+  })
 
   return pipeline
 }
